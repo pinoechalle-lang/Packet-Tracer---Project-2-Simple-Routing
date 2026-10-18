@@ -1,6 +1,6 @@
 # Packet-Tracer---Project-2-Simple-Routing
 
-<img width="4032" height="529" alt="image" src="[https://github.com/user-attachments/assets/580a4a08-6de0-4696-8b82-0cb7f4963d07](https://github.com/pinoechalle-lang/Packet-Tracer---Project-2-Simple-Routing/blob/main/Screenshot%202026-10-18%20214256.png?raw=true)" />
+![Project 2 Screenshot](https://github.com/pinoechalle-lang/Packet-Tracer---Project-2-Simple-Routing/blob/main/Screenshot%202026-10-18%20214256.png?raw=true)
 
 
 ## In this project, the network admin must configure the two routers for Layer 3 routing and configure the following requirements for the Routers and Switches:
