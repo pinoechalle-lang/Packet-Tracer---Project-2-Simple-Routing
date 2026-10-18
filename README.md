@@ -14,11 +14,15 @@
 
 ### Network Addresses and IP Configuration on Interfaces/End Devices
 
+
 #### Router 1 Interface IPv4 Address
 > R1 | G0/0 | 192.168.50.254 | 255.255.255.0   | Link to LAN A
+
 > R1 | G0/1 | 172.27.39.1    | 255.255.255.252 | Link to R2
+
 
 #### Router 2 Interface IPv4 Address
 > R2 | G0/0 | 172.27.39.2    | 255.255.255.252 | Link to R1
+
 > R2 | G0/1 | 192.168.66.254 | 255.255.255.0   | Link to LAN B
 
