@@ -38,7 +38,7 @@ traceroute 192.168.66.1
 ##### show ip interface brief
 > Show interfaces status whether up or down
 
-##### show running-configuration
+##### show running-config
 > Show current active configurations you made
 
 ##### show interfaces
