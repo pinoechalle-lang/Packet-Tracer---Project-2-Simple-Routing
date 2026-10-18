@@ -1,5 +1,7 @@
 # Packet-Tracer---Project-2-Simple-Routing
 
+Screenshot 2026-10-18 214256.png
+
 ## In this project, the network admin must configure the two routers for Layer 3 routing and configure the following requirements for the Routers and Switches:
 
 ### Switch
