@@ -15,8 +15,6 @@
 
 ### Network Addresses and IP Configuration on Interfaces/End Devices
 
-## Network Addresses and IP Configuration on Interfaces/End Devices
-
 | Router | Interface | IP Address | Subnet Mask | Purpose |
 |--------|-----------|------------|-------------|---------|
 | R1 | G0/0 | 192.168.50.254 | 255.255.255.0 | Link to LAN A |
