@@ -7,10 +7,10 @@
 ## Requirements
 This project requires configuring the two routers for Layer 3 routing and meeting the following requirements for the Routers and Switches:
 ### Switch
-Switch SW-LAN-A and SW-LAN-B must be configured with a hostname, banner message, CLI access and EXEC access with a password and session limited to 3 minutes and 30 seconds, have the passwords encrypted in the config file, and enable the no IP domain look-up.
+Switch SW-LAN-A and SW-LAN-B must be configured with a hostname, banner message, CLI access with the password "*hi*" and EXEC access with the password "*hello*", a session limited to 3 minutes and 30 seconds, have the passwords encrypted in the config file, and enable the no IP domain look-up.
 
 ### Router
-Router R1 and R2 must be configured with a hostname, banner message, CLI access and EXEC access with a password and session limited to 5 minutes, have the passwords encrypted in the config file, and enable the no IP domain look-up.
+Router R1 and R2 must be configured with a hostname, banner message, CLI access with the password "*hi*" and EXEC access with the password "*hello*", a session limited to 5 minutes, have the passwords encrypted in the config file, and enable the no IP domain look-up.
 
 ### Network Addresses and IP Configuration on Interfaces/End Devices
 
