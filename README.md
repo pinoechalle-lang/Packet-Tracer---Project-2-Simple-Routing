@@ -33,5 +33,22 @@ show ip route
 ping 192.168.66.1
 traceroute 192.168.66.1
 ```
+// if in Global Configuration Mode, make sure to include "do"
 
-> Use these commands to confirm interface status, routing, and end-to-end connectivity to 192.168.66.1.
+##### show ip interface brief
+> Show interfaces status whether up or down
+
+##### show running-configuration
+> Show current active configurations you made
+
+##### show interfaces
+> Show detailed information about all interfaces including packet statistics, speed, and duplex
+
+##### show ip route
+> Show the router's routing table
+
+##### ping <ipv4-address>
+> Sends ICMP packets to a given address destination to test reachability
+
+##### traceroute <ipv4-address>
+> Shows the path (hops) a packet takes to reach a destination
