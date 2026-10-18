@@ -13,7 +13,7 @@ Router R1 and R2 must be configured with a hostname, banner message, disable IP 
 
 ### Network Addresses and IP Configuration on Interfaces/End Devices
 
-| Router | Interface | IP Address | Subnet Mask | Purpose |
+| Router | Interface | IP Address | Subnet Mask | Description |
 |--------|-----------|------------|-------------|---------|
 | R1 | G0/0 | 192.168.50.254 | 255.255.255.0 | Link to LAN A |
 | R1 | G0/1 | 172.27.39.1 | 255.255.255.252 | Link to R2 |
