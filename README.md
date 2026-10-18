@@ -13,8 +13,12 @@
 
 
 ### Network Addresses and IP Configuration on Interfaces/End Devices
-> R1 is connected to SW-LAN-A via GigabitEthernet 0/0 with a network address of IPv4 192.168.50.0/24, where *.254* is the default gateway.
 
-> R2 is connected to SW-LAN-B via GigabitEthernet 0/1 with a network address of IPv4 192.168.66.0/24, where *.254* is the default gateway.
+#### Router 1 Interface IPv4 Address
+> R1 | G0/0 | 192.168.50.254 | 255.255.255.0   | Link to LAN A
+> R1 | G0/1 | 172.27.39.1    | 255.255.255.252 | Link to R2
 
-> R1 is connected to R2 via GigabitEthernet 0/1 and R2 is connected to R1 via GigabitEthernet 0/0. The network address for this specific connection is IPv4 172.18.2.0/30, with R1's end being *.1* and R2's end being *.2*.
+#### Router 2 Interface IPv4 Address
+> R2 | G0/0 | 172.27.39.2    | 255.255.255.252 | Link to R1
+> R2 | G0/1 | 192.168.66.254 | 255.255.255.0   | Link to LAN B
+
