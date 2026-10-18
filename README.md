@@ -25,5 +25,6 @@ Router R1 and R2 must be configured with a hostname, banner message, CLI access 
 | R2 | G0/1 | 192.168.66.254 | 255.255.255.0 | Link to LAN B |
 
 <hr>
-<hr/>
 ## Verification
+<hr/>
+
