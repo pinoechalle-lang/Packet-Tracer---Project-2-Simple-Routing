@@ -5,8 +5,6 @@
 
 ## In this project, the network admin must configure the two routers for Layer 3 routing and configure the following requirements for the Routers and Switches:
 
-<hr>
-
 ## Requirements
 
 ### Switch
@@ -25,7 +23,6 @@ Router R1 and R2 must be configured with a hostname, banner message, CLI access 
 | R1 | G0/1 | 172.27.39.1 | 255.255.255.252 | Link to R2 |
 | R2 | G0/0 | 172.27.39.2 | 255.255.255.252 | Link to R1 |
 | R2 | G0/1 | 192.168.66.254 | 255.255.255.0 | Link to LAN B |
-<hr/>
 
 <hr>
 ## Verification
