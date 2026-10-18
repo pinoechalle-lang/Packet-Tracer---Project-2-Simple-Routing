@@ -46,6 +46,7 @@ traceroute 192.168.66.1
 
 ##### show ip route
 > Show the router's routing table
+
 > Only in a router device
 
 ##### ping <ipv4-address>
