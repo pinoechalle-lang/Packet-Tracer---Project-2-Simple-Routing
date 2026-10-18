@@ -1,0 +1,74 @@
+=============================================================================
+SW-LAN-A
+=============================================================================
+
+[ Escalate Mode ]
+
+enable
+configure terminal
+
+
+[ Host Name and Banner ]
+
+hostname SW-LAN-A
+banner motd #
+--- Switch LAN A: AUTHORIZED PERSONNEL ONLY! ---
+#
+
+no ip domain-lookup
+
+
+[ Security ]
+
+line console 0
+ password hi
+ exec-timeout 3 3
+ login
+exit
+
+enable secret hello
+
+service password-encryption
+
+
+[ Save (Global) ]
+
+do copy running-config startup-config
+
+
+=============================================================================
+SW-LAN-B
+=============================================================================
+
+[ Escalate Mode ]
+
+enable
+configure terminal
+
+
+[ Host Name and Banner ]
+
+hostname SW-LAN-B
+banner motd #
+--- Switch LAN B: AUTHORIZED PERSONNEL ONLY! ---
+#
+
+no ip domain-lookup
+
+
+[ Security ]
+
+line console 0
+ password hi
+ exec-timeout 3 3
+ login
+exit
+
+enable secret hello
+
+service password-encryption
+
+
+[ Save (Global) ]
+
+do copy running-config startup-config
