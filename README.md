@@ -7,14 +7,14 @@
 ## Requirements
 This project requires configuring the two routers for Layer 3 routing and meeting the following requirements for the Routers and Switches:
 ### Switch
-Switch SW-LAN-A and SW-LAN-B must be configured with a hostname, banner message, disable IP domain look-up, CLI access with the password "*hi*" and EXEC access with the password "*hello*", a session limited to 3 minutes and 30 seconds, and have the configured passwords encrypted in the config file.
+Switch SW-LAN-A and SW-LAN-B must be configured with a hostname, banner message, disable IP domain look-up, CLI access with the password "*hi*" and EXEC access with the password "*hello*", a session limited to 3 minutes and 30 seconds, and with encrypted passwords in the config file.
 ### Router
-Router R1 and R2 must be configured with a hostname, banner message, disable IP domain look-up, CLI access with the password "*hi*" and EXEC access with the password "*hello*", a session limited to 5 minutes, have the configured passwords encrypted in the config file, and block logins for 60 seconds after 3 failed login attempts within the time span of 60 seconds.
+Router R1 and R2 must be configured with a hostname, banner message, disable IP domain look-up, CLI access with the password "*hi*" and EXEC access with the password "*hello*", a session limited to 5 minutes, and with encrypted passwords in the config file.
 
 ### Network Addresses and IP Configuration on Interfaces/End Devices
 
 | Router | Interface | IP Address | Subnet Mask | Description |
-|--------|-----------|------------|-------------|---------|
+|--------|-----------|------------|-------------|-------------|
 | R1 | G0/0 | 192.168.50.254 | 255.255.255.0 | Link to LAN A |
 | R1 | G0/1 | 172.27.39.1 | 255.255.255.252 | Link to R2 |
 | R2 | G0/0 | 172.27.39.2 | 255.255.255.252 | Link to R1 |
@@ -23,3 +23,15 @@ Router R1 and R2 must be configured with a hostname, banner message, disable IP 
 ---
 
 ## Verification
+
+```bash
+show ip interface brief
+show running-config
+show interfaces
+show ip route
+
+ping 192.168.66.1
+traceroute 192.168.66.1
+```
+
+> Use these commands to confirm interface status, routing, and end-to-end connectivity to 192.168.66.1.
