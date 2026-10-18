@@ -2,6 +2,8 @@
 
 ![Project 2 Screenshot](https://github.com/pinoechalle-lang/Packet-Tracer---Project-2-Simple-Routing/blob/main/Screenshot%202026-10-18%20214256.png?raw=true)
 
+---
+
 ## Requirements
 
 This project requires configuring the two routers for Layer 3 routing and meeting the following requirements for the Routers and Switches:
@@ -20,5 +22,7 @@ Router R1 and R2 must be configured with a hostname, banner message, CLI access 
 | R1 | G0/1 | 172.27.39.1 | 255.255.255.252 | Link to R2 |
 | R2 | G0/0 | 172.27.39.2 | 255.255.255.252 | Link to R1 |
 | R2 | G0/1 | 192.168.66.254 | 255.255.255.0 | Link to LAN B |
+
+---
 
 ## Verification
