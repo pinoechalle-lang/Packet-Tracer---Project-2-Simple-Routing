@@ -51,6 +51,8 @@ Switch SW-LAN-A and SW-LAN-B must be configured with a hostname, banner message,
  - IPv4 Address: 192.168.66.10/24
  - Default Gateway: 192.168.66.254
 
+<n><n/>
+
 ### Router
 Router R1 and R2 must be configured with a hostname, banner message, disable IP domain look-up, CLI access with the password "*hi*" and EXEC access with the password "*hello*", a session limited to 5 minutes, and encrypt the plaintext passwords in the running configuration file.
 ### Network Addresses and IP Configuration on Interfaces/End Devices
