@@ -11,37 +11,38 @@ This project requires configuring the two routers for Layer 3 routing and meetin
 ### Switch
 Switch SW-LAN-A and SW-LAN-B must be configured with a hostname, banner message, disable IP domain look-up, CLI access with the password "*hi*" and EXEC access with the password "*hello*", a session limited to 3 minutes and 30 seconds, and encrypt the plaintext passwords in the running configuration file.
 
+
  #### SW-LAN-A Remote Configuration
  Configure SW-LAN-A for secure remote management using the following parameters:
  
 - Domain Name: hellcomA.edu
- 
 - Local User Account:
 - Username: SWA-Rem-Admin
 - Password: Joker
  
 Remote Access Requirements:
+
 - SSH Version 2 only
 - Maximum of 5 simultaneous VTY sessions
 - Session timeout: 3 minutes and 30 seconds
 - RSA Key Size: 1024 bits
-
  
 Management Interface:
 - VLAN 1 (SVI)
 - IPv4 Address: 192.168.50.8/24
 - Default Gateway: 192.168.50.254
 
+
  #### SW-LAN-A Remote Configuration
  Configure SW-LAN-A for secure remote management using the following parameters:
  
  - Domain Name: hellcomB.edu
- 
  - Local User Account:
  - Username: SWB-Rem-Admin
  - Password: Midas
  
  Remote Access Requirements:
+
  - SSH Version 2 only
  - Maximum of 16 simultaneous VTY sessions
  - Session timeout: 3 minutes and 0 seconds
@@ -51,10 +52,7 @@ Management Interface:
  - VLAN 1 (SVI)
  - IPv4 Address: 192.168.66.10/24
  - Default Gateway: 192.168.66.254
-
-<b><b>
-<b><b>
-<b><b>
+   
 
 ### Router
 Router R1 and R2 must be configured with a hostname, banner message, disable IP domain look-up, CLI access with the password "*hi*" and EXEC access with the password "*hello*", a session limited to 5 minutes, and encrypt the plaintext passwords in the running configuration file.
