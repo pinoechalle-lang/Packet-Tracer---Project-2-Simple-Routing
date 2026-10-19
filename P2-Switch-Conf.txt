@@ -38,7 +38,7 @@ username SWA-Rem-Admin secret Joker
 ip domain-name hellocomA.edu
 
 line vty 0 4
- local login
+ login local
  transport input ssh
  exec-timeout 3 3
 exit
@@ -106,7 +106,7 @@ username SWB-Rem-Admin secret Midas
 ip domain-name hellocomB.edu
 
 line vty 0 15
- local login
+ login local
  transport input ssh
  exec-timeout 3 0
 exit
