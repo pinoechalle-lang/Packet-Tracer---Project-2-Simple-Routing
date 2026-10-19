@@ -14,11 +14,11 @@ Switch SW-LAN-A and SW-LAN-B must be configured with a hostname, banner message,
  #### SW-LAN-A Remote Configuration
  Configure SW-LAN-A for secure remote management using the following parameters:
  
-Domain Name: hellcomA.edu
+- Domain Name: hellcomA.edu
  
-Local User Account:
-Username: SWA-Rem-Admin
-Password: Joker
+- Local User Account:
+- Username: SWA-Rem-Admin
+- Password: Joker
  
 Remote Access Requirements:
 - SSH Version 2 only
@@ -35,11 +35,11 @@ Management Interface:
  #### SW-LAN-A Remote Configuration
  Configure SW-LAN-A for secure remote management using the following parameters:
  
- Domain Name: hellcomB.edu
+ - Domain Name: hellcomB.edu
  
- Local User Account:
- Username: SWB-Rem-Admin
- Password: Midas
+ - Local User Account:
+ - Username: SWB-Rem-Admin
+ - Password: Midas
  
  Remote Access Requirements:
  - SSH Version 2 only
