@@ -127,7 +127,7 @@ NOTE: if in Global Configuration Mode, make sure to include "do"
 
 ### Ways to Enter into the Switches Remotely:
 
-##### 1. PC Command prompt
+##### 1. PC Command Prompt
 ````bash
 ssh -l <username> <ipv4-address>
 
