@@ -35,8 +35,8 @@ Management Interface:
 - Default Gateway: 192.168.50.254
 
 
- #### SW-LAN-A Remote Configuration
- Configure SW-LAN-A for secure remote management using the following parameters:
+ #### SW-LAN-B Remote Configuration
+ Configure SW-LAN-B for secure remote management using the following parameters:
  
  - Domain Name: hellcomB.edu
 
