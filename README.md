@@ -123,3 +123,21 @@ traceroute 192.168.66.1
 
 ##### traceroute <ipv4-address>
 > Shows the path (hops) a packet takes to reach a destination
+
+
+#### Ways to Enter into the Switches Remotely:
+
+##### 1. PC Command prompt
+````bash
+ssh -l <username> <ipv4-address>
+
+// Example
+ssh -l SWB-Rem-Admin 192.168.66.10
+````
+
+##### 2. Desktop Application
+> Click on an End Device (PC)
+> Go to Desktop Tab
+> Click on "Telnet/SSH Client" application
+> Fill the Hostname (or IP) and Username textboxes
+> Enter the password
