@@ -50,6 +50,7 @@ Management Interface:
  - Session timeout: 3 minutes and 0 seconds
  - RSA Key Size: 1024 bits
  
+ 
  Management Interface:
  - VLAN 1 (SVI)
  - IPv4 Address: 192.168.66.10/24
