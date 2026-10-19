@@ -30,7 +30,7 @@ Remote Access Requirements:
 - RSA Key Size: 1024 bits
  
 Management Interface:
-- VLAN 1 (SVI)
+- Default VLAN 1 (SVI)
 - IPv4 Address: 192.168.50.8/24
 - Default Gateway: 192.168.50.254
 
@@ -54,7 +54,7 @@ Local User Account:
  
  
  Management Interface:
- - VLAN 1 (SVI)
+ - Default VLAN 1 (SVI)
  - IPv4 Address: 192.168.66.10/24
  - Default Gateway: 192.168.66.254
    
