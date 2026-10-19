@@ -14,22 +14,23 @@ Switch SW-LAN-A and SW-LAN-B must be configured with a hostname, banner message,
  #### SW-LAN-A Remote Configuration
  Configure SW-LAN-A for secure remote management using the following parameters:
  
- Domain Name: hellcomA.edu
+Domain Name: hellcomA.edu
  
- Local User Account:
- Username: SWA-Rem-Admin
- Password: Joker
+Local User Account:
+Username: SWA-Rem-Admin
+Password: Joker
  
- Remote Access Requirements:
- - SSH Version 2 only
- - Maximum of 5 simultaneous VTY sessions
- - Session timeout: 3 minutes and 30 seconds
- - RSA Key Size: 1024 bits
- 
- Management Interface:
- - VLAN 1 (SVI)
- - IPv4 Address: 192.168.50.8/24
- - Default Gateway: 192.168.50.254
+Remote Access Requirements:
+- SSH Version 2 only
+- Maximum of 5 simultaneous VTY sessions
+- Session timeout: 3 minutes and 30 seconds
+- RSA Key Size: 1024 bits
+
+ 
+Management Interface:
+- VLAN 1 (SVI)
+- IPv4 Address: 192.168.50.8/24
+- Default Gateway: 192.168.50.254
 
  #### SW-LAN-A Remote Configuration
  Configure SW-LAN-A for secure remote management using the following parameters:
