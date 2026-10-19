@@ -1,0 +1,134 @@
+=============================================================================
+SW-LAN-A
+=============================================================================
+
+[ Escalate Mode ]
+
+enable
+configure terminal
+
+
+[ Host Name and Banner ]
+
+hostname SW-LAN-A
+banner motd #
+--- Switch LAN A: AUTHORIZED PERSONNEL ONLY! ---
+#
+
+no ip domain-lookup
+
+
+[ Security ]
+
+line console 0
+ password hi
+ exec-timeout 3 3
+ login
+exit
+
+enable secret hello
+
+service password-encryption
+
+
+[ Remote Management ]
+
+username SWA-Rem-Admin secret Joker
+
+ip domain-name hellocomA.edu
+
+line vty 0 4
+ local login
+ transport input ssh
+ exec-timeout 3 3
+exit
+
+crypto key generate rsa general-keys modulus 1024
+
+ip ssh version 2
+
+
+[ Switch Virtual Interface (SVI) ]
+
+interface vlan 1
+ ip address 192.168.50.8 255.255.255.0
+ no shutdown
+exit
+
+
+[ Default Gateway ]
+
+ip default-gateway 192.168.50.254
+
+
+[ Save (Global) ]
+
+do copy running-config startup-config
+
+
+=============================================================================
+SW-LAN-B
+=============================================================================
+
+[ Escalate Mode ]
+
+enable
+configure terminal
+
+
+[ Host Name and Banner ]
+
+hostname SW-LAN-B
+banner motd #
+--- Switch LAN B: AUTHORIZED PERSONNEL ONLY! ---
+#
+
+no ip domain-lookup
+
+
+[ Security ]
+
+line console 0
+ password hi
+ exec-timeout 3 3
+ login
+exit
+
+enable secret hello
+
+service password-encryption
+
+
+[ Remote Management ]
+
+username SWB-Rem-Admin secret Midas
+
+ip domain-name hellocomB.edu
+
+line vty 0 15
+ local login
+ transport input ssh
+ exec-timeout 3 0
+exit
+
+crypto key generate rsa general-keys modulus 1024
+
+ip ssh version 2
+
+
+[ Switch Virtual Interface (SVI) ]
+
+interface vlan 1
+ ip address 192.168.66.10 255.255.255.0
+ no shutdown
+exit
+
+
+[ Default Gateway ]
+
+ip default-gateway 192.168.66.254
+
+
+[ Save (Global) ]
+
+do copy running-config startup-config
