@@ -90,7 +90,7 @@ show logging
 ping 192.168.66.1
 traceroute 192.168.66.1
 ```
-// if in Global Configuration Mode, make sure to include "do"
+NOTE: if in Global Configuration Mode, make sure to include "do"
 
 ##### show ip interface brief
 > Show interfaces status whether up or down
@@ -125,7 +125,7 @@ traceroute 192.168.66.1
 > Shows the path (hops) a packet takes to reach a destination
 
 
-#### Ways to Enter into the Switches Remotely:
+### Ways to Enter into the Switches Remotely:
 
 ##### 1. PC Command prompt
 ````bash
