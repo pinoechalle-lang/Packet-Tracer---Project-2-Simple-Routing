@@ -1,6 +1,6 @@
 # Packet-Tracer---Project-2-Simple-Routing
 
-![Project 2 Screenshot](https://github.com/pinoechalle-lang/Packet-Tracer---Project-2-Simple-Routing/blob/main/Screenshot%202026-10-18%20214256.png?raw=true)
+![Project 2 Screenshot](https://github.com/pinoechalle-lang/Packet-Tracer---Project-2-Simple-Routing/blob/main/Screenshot%202026-10-19%20124852.png?raw=true)
 
 ---
 
