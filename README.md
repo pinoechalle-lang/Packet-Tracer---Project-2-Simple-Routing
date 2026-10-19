@@ -20,6 +20,7 @@ Switch SW-LAN-A and SW-LAN-B must be configured with a hostname, banner message,
 - Username: SWA-Rem-Admin
 - Password: Joker
  
+
 Remote Access Requirements:
 
 - SSH Version 2 only
@@ -41,6 +42,7 @@ Management Interface:
  - Username: SWB-Rem-Admin
  - Password: Midas
  
+ 
  Remote Access Requirements:
 
  - SSH Version 2 only
