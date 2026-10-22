@@ -127,20 +127,19 @@ NOTE: if in Global Configuration Mode, make sure to include "do"
 ### Ways to Enter into the Switches Remotely:
 
 ##### 1. PC Command Prompt
+1. Enter the command prompt
+2. Enter the given command:
 ````bash
 ssh -l <username> <ipv4-address>
 
 // Example
 ssh -l SWB-Rem-Admin 192.168.66.10
 ````
+3. Enter the password when asked
 
 ##### 2. Desktop Application
-> Click on an End Device (PC)
-
-> Go to Desktop Tab
-
-> Click on "Telnet/SSH Client" application
-
-> Fill the Hostname (or IP) and Username textboxes
-
-> Enter the password
+1. Click on an End Device (PC)
+2. Go to Desktop Tab
+3. Click on "Telnet/SSH Client" application
+4. Fill the Hostname (or IP) and Username textboxes
+5. Enter the password when asked
