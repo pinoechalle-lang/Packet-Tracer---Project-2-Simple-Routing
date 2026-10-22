@@ -123,7 +123,7 @@ NOTE: if in Global Configuration Mode, make sure to include "do"
 ##### traceroute <ipv4-address>
 - Shows the path (hops) a packet takes to reach a destination
 
-
+---
 ### Ways to Enter into the Switches Remotely:
 
 ##### 1. PC Command Prompt
